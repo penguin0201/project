@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="1258.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoproj.controller.MainFrameController">
+   <children>
+      <TabPane layoutX="1.0" layoutY="60.0" prefHeight="622.0" prefWidth="1258.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="personalinfo" text="个人信息">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="610.0" prefWidth="1258.0" />
+            </content>
+          </Tab>
+          <Tab fx:id="studentinfo" text="学生信息">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab fx:id="teacherinfo" text="教师信息">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label alignment="CENTER" layoutX="421.0" layoutY="9.0" prefHeight="47.0" prefWidth="336.0" text="教务管理系统">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
