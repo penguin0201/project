@@ -1,6 +1,9 @@
 module com.example.demoproj {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.google.gson;
+    requires java.net.http;
+    requires spring.security.crypto;
 
 
     opens com.example.demoproj to javafx.fxml;
